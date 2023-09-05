@@ -6,12 +6,11 @@ public class calendario {
 
 	public static void main(String[] args) {
 		
+		short anio;
+		byte dia; 
+		byte mes; 
 		
-		short anio = 0;
-		byte dia = 0; 
-		byte mes = 0; 
-		
-		short[] fecha = {dia,mes,anio};
+		short[] fecha = new short[3];
 		
 		Scanner teclado = new Scanner(System.in);
 		
